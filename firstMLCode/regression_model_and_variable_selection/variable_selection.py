@@ -19,6 +19,14 @@ from pathlib import Path
 data = load_diabetes()
 
 ##see all records 
+""" Removing highly correlated independent variables using Pearson correlation is a common technique in 
+feature selection to address multicollinearity.  """
+
+""" Step-by-step example: Selecting predictors for regression in Python
+Here’s a practical, end-to-end workflow using a built-in dataset (Diabetes) from scikit-learn. 
+We’ll explore domain understanding, correlations, filter methods, embedded methods (Lasso), 
+and wrapper methods (RFE), then compare results with cross-validation.
+"""
 independent_df = pd.DataFrame(data.data, columns=data.feature_names)
 dependent_Df =pd.DataFrame(data.target, columns=['disease_progression'])
 current_dir = Path.cwd()

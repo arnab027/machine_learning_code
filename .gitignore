@@ -351,3 +351,5 @@ deep_learning_image_classification/__init__.py
 .idea/vcs.xml
 .idea/inspectionProfiles/profiles_settings.xml
 .idea/inspectionProfiles/Project_Default.xml
+firstMLCode/trained_model/model.pkl
+firstMLCode/trained_model/scaler.pkl
